@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bio-Data Form</title>
+  <style>
+    *{
+      box-sizing: border-box;
+      font-family: Arial,sans-serif;
+    }
+    body{
+      margin: 20px;
+      background-color: #f5f5f5;
+    }
+    .biodata-continer{
+      max-width: 800px;
+      background: white;
+      padding: 20px;
+      margin: auto;
+      border: 2px solid #000;
+      border-radius: 8px;
+    }
+    h1{
+      text-align: center;
+      text-decoration: underline;
+      margin-bottom: 20px;
+    }
+    .photo-box{
+      float: right;
+      width: 120px;
+      height: 140px;
+      border: 1px solid #000;
+      margin-left: 10px;
+      text-align: center;
+      font-size: 12px;
+      color: gray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    section{
+      margin-bottom: 20px;
+      clear: both;
+    }
+    label{
+      display: inline-block;
+      width: 160px;
+      font-weight: bold;
+      vertical-align: top;
+    }
+    input, textarea{
+      width: calc(100% - 180px);
+      padding: 4px;
+      margin-bottom: 8px;
+      border: none;
+      border-bottom: 1px solid #000;
+      outline: none;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .col-half{
+      width: 48%;
+    }
+    .edu-row{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .edu-row input{
+      width: 60%;
+    }
+    .certify{
+      border: 1px solid #000;
+      padding: 10px;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .sign-row{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+
+    .sign-row div{
+      width: 45%;
+      text-align: center;
+    }
+
+    @media(max-width:600px){
+      label{
+        width: 100%;
+      }
+      input, textarea{
+        width: 100%;
+      }
+      .col-half{
+        width: 100%;
+      }
+      .photo-box{
+        float: none;
+        margin: 0 auto 15px;
+      }
+      .sign-row{
+        flex-direction: column;
+        align-items: center;
+      }
+      .sign-row div{
+        width: 80%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="biodata-continer">
+    <h1>BIO-DATA</h1>
+  <div class="photo-box">Photo</div>
+  <section>
+    <h3>PERSONAL DATA</h3>
+    <label>Name:</label><input type="text"><br>
+    <label>Gender:</label><input type="text"><br>
+    <label>Date of Birth:</label><input type="text"><br>
+    <label>Current Address:</label><input type="text"><br>
+    <label>Permanent Address:</label><input type="text"><br>
+
+    <div class="row">
+      <div class="col-half">
+        <label>Age:</label><input type="text"><br>
+        <label>Occupation:</label><input type="text"><br>
+        <label>Civil Status:</label><input type="text"><br>
+        <label>Place of Birth:</label><input type="text"><br>
+        <label>Height:</label><input type="text"><br>
+        <label>Weight:</label><input type="text"><br>
+        <label>Father's Name:</label><input type="text"><br>
+        <label>Mother's Name:</label><input type="text"><br>
+       </div> 
+
+      <div class="col-half">
+        <label>Date:</label><input type="text"><br>
+        <label>Telephone:</label><input type="text"><br>
+        <label>Cellphone:</label><input type="text"><br>
+        <label>Email:</label><input type="text"><br>
+        <label>Citizenship:</label><input type="text"><br>
+        <label>Religion:</label><input type="text"><br>
+        <label>Father's Occupation:</label><input type="text"><br>
+        <label>Mother's Occupation:</label><input type="text"><br>
+       </div>
+       </div>
+
+       <label>Language/Dialect Spoken:</label><input type="text"><br>
+       <label>Person to contact in emergency:</label><input type="text"><br>
+       <label>Address:</label><input type="text"><br>
+       <label>Contact No.:</label><input type="text"><br>
+  </section>
+
+  <section>
+    <h3>EDUCATIONAL BACKGROUND</h3>
+    <div class="edu-row">
+      <label>Elementary:</label><input type="text" placeholder="School Name">&nbsp
+      <label>Year Graduated :</label><input type="text">
+    </div>
+
+    <div class="edu-row">
+      <label>High School:</label><input type="text" placeholder="School Name">&nbsp
+      <label>Year Graduated :</label><input type="text">
+    </div>
+
+    <div class="edu-row">
+      <label>College:</label><input type="text" placeholder="College Name">&nbsp
+      <label>Year Graduated :</label><input type="text">
+    </div>
+  </section>
+  <div class="certify">
+    I hereby certify that the facts contained in this bio-data are true and complete to the best of my knowledge.
+  </div>
+
+  <div class="sign-row">
+    <div>__________________________<br>Date</div>
+    <div>__________________________<br>Signature</div>
+  </div>
+</div>
+</body>
+</html>
