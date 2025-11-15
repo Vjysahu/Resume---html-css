@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume - Rakesh Kumar Singh</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body{
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    .resume-container{
+      max-width: 800px;
+      background-color: #fff;
+      margin: 0 auto;
+      padding: 25px;
+      border: 2px solid #333;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h1{
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      text-decoration: underline;
+    }
+
+    .contact-info{
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .section{
+      margin-bottom: 20px;
+    }
+
+    h2{
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      background-color: #f0f0f0;
+      padding: 6px 10px;
+      border-left: 5px solid #333;
+      margin-bottom: 10px;
+    }
+
+    ul{
+      list-style: none;
+      padding-left: 15px;
+    }
+
+    ul li::before{
+      content: "✓";
+      color: #333;
+    }
+
+    p, li{
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    .personal-details table{
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .personal-details td{
+      padding: 6px 5px;
+      vertical-align: top;
+    }
+
+    .declaration{
+      margin-top: 20px;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .Signature{
+      text-align: right;
+      margin-top: 30px;
+      font-weight: bold;
+    }
+
+    @media(max-width:600px){
+      body{
+        padding: 10px;
+      }
+      .resume-container{
+        padding: 15px;
+      }
+      h1{
+        font-size: 1.4rem;
+      }
+      h2{
+        font-size: 1rem;
+      }
+    
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <h1>Resume</h1>
+  <div class="contact-info">
+    <p> <strong>Rakesh Kumar Singh</strong> </p>
+     <p> <strong>Address:</strong> Sector 63, Noida - 201301 </p>
+      <p> <strong>Mobile:</strong> 0123456789 </p>
+  </div>
+
+  <div class="section">
+    <h2>Career Objective</h2>
+    <p>
+      To be a part of reputed organization which provides steady career growth along with job satisfaction and challenge, and give value contribution in the success of the organization.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Academic Qualification</h2>
+    <ul>
+      <li>High School Passed from CBSE in 1999.</li>
+      <li>Intermediate (Commerce) passed from U.P. Board in 2001.</li>
+      <li>B.Com Final (Accounts & Business) from C.S.M. University, Kanpur in 2004.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Other Qualifications</h2>
+    <ul>
+      <li>6 Month Diploma in Computer.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Experience</h2>
+    <ul>
+      <li>1 Year Experience as an Associate Consultant.</li>
+      <li>3 Year Experience as a Senior Associate Consultant.</li>
+      <li>2 Year Experience as a Quality Analyst.</li>
+      <li>(Worked on making Reports, Dashboard and Analyse the Data.)</li>
+    </ul>
+  </div>
+
+  <div class="section personal-details">
+    <h2>Personal Details</h2>
+    <table>
+      <tr>
+        <td> <strong>Father's Name:</strong> </td>
+        <td>Mr. Suresh Singh</td>
+      </tr>
+      <tr>
+        <td> <strong>Mother's Name:</strong> </td>
+        <td>Reema Devi</td>
+      </tr>
+      <tr>
+        <td> <strong>Date of Birth:</strong> </td>
+        <td>05-07-1984</td>
+      </tr>
+      <tr>
+        <td> <strong>Gender:</strong> </td>
+        <td>Male</td>
+      </tr>
+      <tr>
+        <td> <strong>Martial Status:</strong> </td>
+        <td>Married</td>
+      </tr>
+      <tr>
+        <td> <strong>Nationality:</strong> </td>
+        <td>Indian</td>
+      </tr>
+      <tr>
+        <td> <strong>Religion:</strong> </td>
+        <td>Hindu</td>
+      </tr>
+      <tr>
+        <td> <strong>Languages Known:</strong> </td>
+        <td>Hindi, English, Bengali and Odia</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section declaration">
+    <h2>Declaration</h2>
+    <p>
+      I hereby declare that the above information given above is correct to the best of my knowledge and belief.
+    </p><br>
+    <p> <strong>Date:</strong>______________________ </p>
+    <p> <strong>Place:</strong>______________________ </p>
+    <div class="Signature">(Rakesh Kumar Singh)</div>
+  </div>
+</div>
+</body>
+</html>
