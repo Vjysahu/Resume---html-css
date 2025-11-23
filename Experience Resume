@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume</title>
+
+  <style>
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body{
+      background: #f4f4f4;
+      padding: 20px;
+    }
+
+    .resume-container{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .left-section{
+      background: #007acc;
+      color: #fff;
+      width: 30%;
+      padding: 25px;
+    }
+
+    .profile-pic{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 15px;
+      border: 3px solid #fff;
+    }
+
+    .profile-pic img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h2{
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+
+    .section-title{
+      font-size: 16px;
+      border-bottom: 2px solid #fff;
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+      text-transform: uppercase;
+    }
+
+    .contact-info, .profile, .hobbies, .languages{
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+
+    .contact-info p, .profile ul li, .hobbies p, .languages p{
+      margin: 6px 0;
+      line-height: 1.4;
+    }
+
+    .profile ul{
+      list-style: disc;
+      margin-left: 18px;
+    }
+
+    .right-section{
+      width: 70%;
+      padding: 25px;
+    }
+
+    .name-title{
+      text-align: center;
+      border-bottom: 3px solid #007acc;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+
+    .name-title h1{
+      font-size: 24px;
+      letter-spacing: 1px;
+      color: #222;
+    }
+
+    .resume-block{
+      margin-bottom: 25px;
+    }
+
+    .resume-block h3{
+      color: #007acc;
+      font-size: 18px;
+      margin-bottom: 8px;
+      border-bottom: 2px solid #007acc;
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+
+    .resume-block p{
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+    .resume-block strong{
+      color: #000;
+    }
+
+    .edu-table{
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .edu-table th, .edu-table td{
+      border: 1px solid #007acc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    .edu-table th{
+      background-color: #007acc;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .edu-table tr:nth-child(even){
+      background-color: #f2f8fc;
+    }
+
+    @media(max-width:600px){
+      .edu-table th, .edu-table td{
+        font-size: 13px;
+        padding: 6px;
+      }
+    }
+
+    @media(max-width:768px){
+      .left-section, .right-section{
+        width: 100%;
+      }
+      .left-section{
+        text-align: center;
+      }
+      .profile-pic{
+        margin: 0 auto 10px;
+      }
+      .section-title{
+        border-bottom: none;
+        border-top: 2px solid #fff;
+        display: inline-block;
+        margin: 10px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <div class="left-section">
+      <div class="profile-pic">
+        <img src="1.jpg" alt="Profile Picture">
+       </div>
+       
+       <h2>Contact</h2> 
+       <div class="contact-info">
+         <p>📞 +91 2365478965</p>
+        <p>📱 +1234567890</p>
+        <p>📧 ajay@gmail.com</p>
+        <p>📍 #G-135, Sushant Lok 1, Gurugram, Haryana</p>
+       </div>
+
+       <div class="profile">
+         <div class="section-title">Profile</div>
+         <ul>
+           <li>Young, Dynamic & Hardworking.</li>
+           <li>Quick Learner.</li>
+           <li>Capacity to work hard.</li>
+           <li>Team work and Coordination.</li>
+           <li>Able to work under pressure.</li>
+         </ul>
+       </div>
+
+       <div class="hobbies">
+        <div class="section-title">Hobbies</div>
+        <p>Music</p>
+        <p>Photography</p>
+        <p>Writing</p>
+        <p>Reading</p>
+        <p>Art</p>
+      </div>
+
+      <div class="languages">
+        <div class="section-title">Languages</div>
+        <p>Hindi</p>
+        <p>English</p>
+        <p>Odia</p>
+        <p>Bengali</p>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <div class="name-title">
+        <h1>AJAY SHARMA</h1>
+      </div>
+      <div class="resume-block">
+        <h3>Personal Vitae</h3>
+        <p><strong>Father Name:</strong>RAMESH SHARMA</p>
+        <p><strong>Date of Birth:</strong>10-10-1992</p>
+        <p><strong>Marital Status:</strong>Married</p>
+        <p><strong>Nationality:</strong>INDIAN</p>
+        <p><strong>Religion:</strong>Hindu</p>
+      </div>
+
+      <div class="resume-block">
+        <h3>Education</h3>
+        <table class="edu-table">
+          <thead>
+            <tr>
+              <th>Examination</th>
+              <th>Board/University</th>
+              <th>Marks</th>
+              <th>Passing Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Matric</td>
+              <td>CBSE Board</td>
+              <td>380</td>
+              <td>2004</td>
+            </tr>
+            <tr>
+              <td>Intermediate</td>
+              <td>JAC, RANCHI</td>
+              <td>425/500</td>
+              <td>2006</td>
+            </tr>
+            <tr>
+              <td>Graduation</td>
+              <td>NIIT, Dhanbad</td>
+              <td>1150</td>
+              <td>2010</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="resume-block">
+        <h3>Computer Skills</h3>
+        <p>06 MOnths Course of AUTOCAD(2D + 3D).</p>
+        <p>03 Months Course of SKETCHUP</p>
+        <p>03 Months Course of Office Management</p>
+      </div>
+
+      <div class="resume-block">
+        <h3>Experience</h3>
+        <p>3 Years of Experience as an Associate in CBSL, Hyderabad.</p>
+        <p>1 Year of Experience as a Pre Sales Consultant in Regalix, Hyderabad.</p>
+        <p>3 Years of Experience as a Quality Analyst in MNCs like Startek, OnePlus, Accenture.</p>
+      </div>
+      
+    </div>
+</body>
+</html>
